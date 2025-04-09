@@ -20,8 +20,7 @@ jobs:
           organization: 'testing_redocly'
           project: 'anna-s-onboarding'
           mountPath: '/admin-API/learning-api'
-          files: ''
+          files: 'LearningAPI.yaml, LearningAPIguide.md'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
-
